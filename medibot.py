@@ -63,7 +63,7 @@ def format_references(source_documents):
     return "\n".join(references)
 
 def main():
-    st.title("Medical Chatbot")
+    st.title("Robbins-Basic-Pathology Book Chatbot")
 
     if 'messages' not in st.session_state:
         st.session_state.messages = []
@@ -76,7 +76,7 @@ def main():
                 with st.expander("View References", expanded=False):
                     st.markdown("**References**:\n" + message['references'])
 
-    prompt = st.chat_input("Enter your medical query here (e.g., What is Biosynthetic Machinery?)")
+    prompt = st.chat_input("Enter your query related to book here")
 
     if prompt:
         with st.chat_message('user'):

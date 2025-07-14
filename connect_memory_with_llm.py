@@ -15,7 +15,7 @@ def load_llm():
         model_name="llama3-8b-8192",  # Groq-supported model
         temperature=0.5,
         max_tokens=512,
-        REMOVED_SECRETapi_key=os.environ.get("GROQ_API_KEY")
+        api_key="GROQ_API_KEY"
     )
     return llm
 

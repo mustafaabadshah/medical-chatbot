@@ -36,7 +36,7 @@ def load_llm():
             model_name="llama3-8b-8192",
             temperature=0.5,
             max_tokens=512,
-            REMOVED_SECRETapi_key=api_key
+            api_key=api_key
         )
         return llm
     except Exception as e:

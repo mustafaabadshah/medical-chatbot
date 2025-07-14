@@ -1,0 +1,10 @@
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-huggingface>=0.0.1
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+python-dotenv>=1.0.0
+pypdf
+huggingface_hub
+streamlit
+gradio

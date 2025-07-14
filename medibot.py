@@ -1,3 +1,4 @@
+!pip install langchain_groq
 import os
 import streamlit as st
 from langchain.embeddings import HuggingFaceEmbeddings

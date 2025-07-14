@@ -8,3 +8,4 @@ pypdf
 huggingface_hub
 streamlit
 gradio
+langchain_groq
